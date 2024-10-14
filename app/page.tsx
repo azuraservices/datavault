@@ -11,7 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { motion } from "framer-motion"
 import axios from 'axios'
-import { useToast, toast } from "@/hooks/use-toast"
+import { useToast, toast } from "@/components/ui/use-toast"
 
 interface VintageItem {
   id: number
